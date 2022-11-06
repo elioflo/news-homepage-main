@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 
     &__list {
         display: none;
@@ -15,4 +16,29 @@
         width: 40px;
         height: 20px;
     }
+
+    @media screen and (min-width: 1005px ) {
+        
+        margin: 60px 0;
+
+        &__logo {
+            width: 60px;
+        }
+        
+        &__menu {
+            display: none;
+        }
+
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 40%;
+        }
+
+        &__item {
+            color: var(--neutral-dark-grayish-blue);
+        }
+    }
+
 }

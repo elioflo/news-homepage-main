@@ -33,4 +33,32 @@
         }
     }
 
+    @media screen and (min-width: 1005px ) {
+        max-width: calc(100% - 387px);
+        margin-top: 0;
+
+        &__info {
+            display: flex;
+            margin-top: 25px;
+            justify-content: space-between;
+            div {
+                position: relative;
+                width: 335px;
+            }
+        }
+
+        &__title {
+            font-size: 4rem;
+            line-height: 4rem;
+            margin: 0;
+            width: 335px;
+        }
+
+        &__btn {
+            position: absolute;
+            bottom: 0;
+        }
+
+    }
+
 }
