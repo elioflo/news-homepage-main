@@ -1,0 +1,31 @@
+.header {
+    margin-top: 40px;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        font-weight: 800;
+        line-height: 2.7rem;
+        margin: 25px 0; 
+    }
+
+    &__paragraph {
+        color: var(--neutral-dark-grayish-blue);
+        line-height: 1.6rem;
+    }
+
+    &__btn {
+        display: inline-block;
+        background-color: var(--primary-soft-red);
+        color: var(--neutral-off-white);
+        text-decoration: none;
+        padding: 17px 33px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 4px;
+        margin-top: 30px;
+    }
+}

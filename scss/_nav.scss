@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__list {
+        display: none;
+    }
+    
+    &__logo {
+        width: 45px;
+    }
+
+    &__menu {
+        width: 40px;
+        height: 20px;
+    }
+}

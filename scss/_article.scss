@@ -1,0 +1,21 @@
+.article {
+
+    &__title{
+        color: var(--neutral-off-white);
+        font-size: 1.35rem;
+    }
+
+    &__description {
+        color: var(--neutral-grayish-blue);
+        margin-top: 10px;
+    }
+
+    &:not(:last-child) { 
+        border-bottom: 1px solid var(--neutral-grayish-blue); 
+        padding-bottom: 30px;
+    }
+
+    &:not(:first-child) {  
+        padding-top: 30px;
+    }
+}

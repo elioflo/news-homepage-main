@@ -1,0 +1,21 @@
+.menu {
+    display: none;
+    position: fixed;
+    right: 0;
+    min-height: 100%;
+    width: 70%;
+    background-color: var(--neutral-off-white);
+    padding: 30px 20px;
+
+    &__close {
+        float: right;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.7rem;
+        margin-top: 8.3rem;
+    }
+}
