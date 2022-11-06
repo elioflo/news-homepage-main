@@ -2,9 +2,12 @@
     display: flex;
     gap: 25px;
     width: 100%;
+    min-height: 120px;
+    max-height: 150px;
 
     &__img {
         width: 28%;
+        object-fit: contain;
     }
 
     &__info {
@@ -23,6 +26,10 @@
     &__title {
         color: var(--neutral-very-dark-blue);
         font-size: 1.25rem;
+
+        &:hover {
+            color: var(--primary-soft-orange);
+        }
     }
 
     &__description {

@@ -3,6 +3,10 @@
     &__title{
         color: var(--neutral-off-white);
         font-size: 1.35rem;
+
+        &:hover {
+            color: var(--primary-soft-orange);
+        }
     }
 
     &__description {

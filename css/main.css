@@ -53,6 +53,9 @@ html, body {
   letter-spacing: 4px;
   margin-top: 30px;
 }
+.header__btn:hover {
+  background-color: var(--neutral-very-dark-blue);
+}
 
 .menu {
   display: none;
@@ -107,6 +110,9 @@ html, body {
   color: var(--neutral-off-white);
   font-size: 1.35rem;
 }
+.article__title:hover {
+  color: var(--primary-soft-orange);
+}
 .article__description {
   color: var(--neutral-grayish-blue);
   margin-top: 10px;
@@ -123,9 +129,12 @@ html, body {
   display: flex;
   gap: 25px;
   width: 100%;
+  min-height: 120px;
+  max-height: 150px;
 }
 .card__img {
   width: 28%;
+  object-fit: contain;
 }
 .card__info {
   display: flex;
@@ -140,6 +149,9 @@ html, body {
 .card__title {
   color: var(--neutral-very-dark-blue);
   font-size: 1.25rem;
+}
+.card__title:hover {
+  color: var(--primary-soft-orange);
 }
 .card__description {
   color: var(--neutral-dark-grayish-blue);
